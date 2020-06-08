@@ -3,7 +3,8 @@
 
 #### INFO
 
-> Serbian language adapted to all peoples of the former Yugoslavia especially Serbia.
+> The Serbian language is primarily made for people from Serbia and people whose mother tongue is serbian.
+> It can be used by all nations of the former Yugoslavia.
 > Translated from [English language](https://github.com/flarum/lang-english) and template from [French language](https://github.com/qiaeru/lang-french).
 
 #### REQUIREMENT
