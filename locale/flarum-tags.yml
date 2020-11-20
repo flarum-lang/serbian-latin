@@ -14,41 +14,41 @@ flarum-tags:
     # These translations are used in the Edit Tag modal dialog.
     edit_tag:
       color_label: => core.ref.color
-      delete_tag_button: Izbriši kategoriju
-      delete_tag_confirmation: "Da li ste sigurni? Diskusije u ovoj kategoriji neće biti obrisane."
+      delete_tag_button: Izbrišite kategoriju
+      delete_tag_confirmation: "Da li ste sigurni da želite da izbrišete ovu kategoriju? Diskusije u ovoj kategoriji NEĆE biti izbrisane."
       description_label: Opis
-      hide_label: Sakrivena kategorija
+      hide_label: Sakrijte sa liste svih diskusija
       icon_label: => core.ref.icon
       icon_text: => core.ref.icon_text
       name_label: => flarum-tags.ref.name
       name_placeholder: => flarum-tags.ref.name
-      slug_label: SEO
+      slug_label: Naziv za URL
       submit_button: => core.ref.save_changes
       title: => flarum-tags.ref.create_tag
 
     # These translations are used in the navigation bar.
     nav:
       tags_button: => flarum-tags.ref.tags
-      tags_text: Podešavanje kategorija za diskusije.
+      tags_text: Podešavanje prilagođenih kategorija.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      allow_edit_tags_label: Izmena kategorije diskusije
+      allow_edit_tags_label: Uređivanje kategorija
       restrict_by_tag_heading: Ograničavanje po kategorijama
-      tag_discussions_label: Dodeljivanje kategorije diskusiji
+      tag_discussions_label: Kategorisanje diskusija
 
     # These translations are used in the Tag Settings modal dialog.
     tag_settings:
-      range_separator_text: " za "
+      range_separator_text: " do "
       required_primary_heading: Potreban broj primarnih kategorija
-      required_primary_text: Unesite minimalni i maksimalni broj primarnih kategorija koji se mogu dodeliti diskusiji.
+      required_primary_text: Unesite minimalni i maksimalni broj primarnih kategorija koje se mogu primeniti na diskusiju.
       required_secondary_heading: Potreban broj sekundarnih kategorija
-      required_secondary_text: Unesite minimalni i maksimalni broj sekundarnih kategorija koji se mogu dodeliti diskusiji.
+      required_secondary_text: Unesite minimalni i maksimalni broj sekundarnih kategorija koje se mogu primeniti na diskusiju.
       title: Podešavanje kategorija
 
     # These translations are used in the Tags page.
     tags:
-      about_tags_text: "Kategorije se koriste za podelu diskusija u hijerarhiju. Primarne kategorije su glavne i neophodne, a sekundarne kategorije sporedne i opcione."
+      about_tags_text: "Kategorije se koriste za raspodelu diskusija. Primarne kategorije su poput tradicionalnih kategorija foruma: mogu se rasporediti u hijerarhiju na dva nivoa. Sekundarne kategorije nemaju hijerarhiju ili redosled i korisne su za mikroraspodelu."
       create_tag_button: => flarum-tags.ref.create_tag
       primary_heading: Primarne kategorije
       secondary_heading: Sekundarne kategorije
@@ -64,22 +64,22 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Izaberite primarnu kategoriju|Izaberite {count} primarne kategorije"
-      choose_secondary_placeholder: "Izaberite još jednu kategoriju|Izaberite još {count} kategorije"
-      edit_title: "Promenite kategoriju za {title}"
+      choose_primary_placeholder: "Izaberite primarnu kategoriju|Izaberite {count} primarnih kategorija"
+      choose_secondary_placeholder: "Izaberite još jednu kategoriju|Izaberite još {count} kategorija"
+      edit_title: "Izmenite kategorije za diskusiju {title}"
       submit_button: => core.ref.okay
-      title: Izaberite kategoriju diskusije
+      title: Izaberite kategorije za Vašu diskusiju
 
     # These translations are used by the composer when starting a discussion.
     composer_discussion:
-      choose_tags_link: Izaberite kategoriju
+      choose_tags_link: Izaberite kategorije
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      edit_tags_button: Kategorija
+      edit_tags_button: Izmenite kategorije
 
     header:
-      back_to_tags_tooltip: Nazad na listu kategorija
+      back_to_tags_tooltip: Povratak na listu kategorija
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -89,14 +89,14 @@ flarum-tags:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      added_and_removed_tags_text: "{username} je promenio kategoriju diskusije u {tagsAdded} i uklonio iz kategorije {tagsRemoved}."
-      added_tags_text: "{username} je promenio kategoriju diskusije u {tagsAdded}."
-      removed_tags_text: "{username} je uklonio kategoriju {tagsRemoved}."
-      tags_text: "{tags}|{tags}"
+      added_and_removed_tags_text: "{username} je dodao/la {tagsAdded} i uklonio/la {tagsRemoved} kategoriju."
+      added_tags_text: "{username} je dodao/la {tagsAdded} kategoriju."
+      removed_tags_text: "{username} je uklonio/la {tagsRemoved} kategoriju."
+      tags_text: "{tags} kategorija|{tags} kategorije"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
-      meta_description_text: "Sve diskusije u kategoriji {tag}"
+      meta_description_text: "Sve diskusije u {tag} kategoriji"
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
@@ -110,6 +110,6 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Napravi kategoriju
+    create_tag: Napravite kategoriju
     name: Naziv
     tags: Kategorije

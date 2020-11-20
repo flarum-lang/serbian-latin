@@ -10,8 +10,8 @@ flarum-approval:
     # These translations are used in the Permissions page of the admin interface.
     permissions:
       approve_posts_label: Odobravanje odgovora
-      reply_without_approval_label: Odgovaranje u diskusijama bez odobrenja
-      start_discussions_without_approval_label: Započinjanje diskusija bez odobrenja
+      reply_without_approval_label: Odgovaranje na diskusije bez odobrenja
+      start_discussions_without_approval_label: Kreiranje diskusija bez odobrenja
 
   # Translations in this namespace are used by the forum user interface.
   forum:

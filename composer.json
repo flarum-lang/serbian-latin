@@ -1,31 +1,28 @@
 {
-    "name": "bryantmilan/lang-serbian",
-    "description": "Serbian language pack for Flarum.",
+    "name": "flarum/lang-serbian",
     "type": "flarum-extension",
-    "keywords": ["extension", "flarum", "serbian", "locale", "translation"],
+    "description": "Serbian language pack.",
+    "keywords": ["locale", "flarum", "serbian"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Milan Bryant",
-            "email": "milansamp999@gmail.com"
+          "name": "Milan Bryant",
+          "email": "milansamp999@gmail.com",
+          "homepage": "https://discuss.flarum.org/u/bryantmilan"
         }
-    ],
-    "support": {
-        "issues": "https://github.com/bryantmilan/lang-serbian/issues",
-        "source": "https://github.com/bryantmilan/lang-serbian"
-    },
+      ],
     "require": {
-        "flarum/core": "^0.1.0-beta.13"
+        "flarum/core": ">=0.1.0-beta.14 <0.1.0-beta.15"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.x-dev"
+            "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "Serbian",
+            "title": "Srpski",
             "icon": {
                 "image": "icon.svg",
-                "backgroundColor": "#fff",
+                "backgroundColor": "#00247d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }

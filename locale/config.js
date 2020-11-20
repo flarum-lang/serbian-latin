@@ -1,53 +1,72 @@
-// Custom Serbian Moment.js Locales
-// Based on: https://github.com/moment/moment/blob/develop/locale/fr.js
-// Thanks to: https://github.com/qiaeru
+// Serbian day.js from https://github.com/iamkun/dayjs/blob/dev/src/locale/sr.js
+// All credits belong to contributors from GitHub
 
-moment.locale('sr', {
-  months: 'januar_februar_mart_april_maj_jun_jul_avgust_septembar_oktobar_novembar_decembar'.split(
-    '_'
-  ),
-  monthsShort: 'jan._feb._mar._apr._maj_jun_jul_avg._sep._okt._nov._dec.'.split(
-    '_'
-  ),
-  monthsParseExact: true,
-  weekdays: 'nedelja_ponedeljak_utorak_sreda_četvrtak_petak_subota'.split('_'),
-  weekdaysShort: 'ned._pon._uto._sre._čet._pet._sub.'.split('_'),
+const translator = {
+  words: {
+    m: ['jedan minut', 'jednog minuta'],
+    mm: ['%d minut', '%d minuta', '%d minuta'],
+    h: ['jedan sat', 'jednog sata'],
+    hh: ['%d sat', '%d sata', '%d sati'],
+    d: ['jedan dan', 'jednog dana'],
+    dd: ['%d dan', '%d dana', '%d dana'],
+    M: ['jedan mesec', 'jednog meseca'],
+    MM: ['%d mesec', '%d meseca', '%d meseci'],
+    y: ['jednu godinu', 'jedne godine'],
+    yy: ['%d godinu', '%d godine', '%d godina']
+  },
+  correctGrammarCase(number, wordKey) {
+    if (number % 10 >= 1 && number % 10 <= 4 && (number % 100 < 10 || number % 100 >= 20)) {
+      return number % 10 === 1 ? wordKey[0] : wordKey[1]
+    }
+    return wordKey[2]
+  },
+  relativeTimeFormatter(number, withoutSuffix, key, isFuture) {
+    const wordKey = translator.words[key]
+
+    if (key.length === 1) {
+      // Nominativ
+      if (key === 'y' && withoutSuffix) return 'jedna godina'
+      return isFuture || withoutSuffix ? wordKey[0] : wordKey[1]
+    }
+
+    const word = translator.correctGrammarCase(number, wordKey)
+    // Nominativ
+    if (key === 'yy' && withoutSuffix && word === '%d godinu') return `${number} godina`
+
+    return word.replace('%d', number)
+  }
+}
+
+dayjs.locale({
+  name: 'sr',
+  weekdays: 'Nedelja_Ponedeljak_Utorak_Sreda_Četvrtak_Petak_Subota'.split('_'),
+  weekdaysShort: 'Ned._Pon._Uto._Sre._Čet._Pet._Sub.'.split('_'),
   weekdaysMin: 'ne_po_ut_sr_če_pe_su'.split('_'),
-  weekdaysParseExact: true,
-  longDateFormat: {
-    LT: 'HH:mm',
-    LTS: 'HH:mm:ss',
-    L: 'DD/MM/YYYY',
-    LL: 'D MMMM YYYY',
-    LLL: 'D MMMM YYYY HH:mm',
-    LLLL: 'dddd D MMMM YYYY HH:mm',
-  },
-  calendar: {
-    sameDay: '[Danas u] LT',
-    nextDay: '[Sutra u] LT',
-    nextWeek: 'dddd [u] LT',
-    lastDay: '[Juče u] LT',
-    lastWeek: 'dddd [prošle nedelje] LT',
-    sameElse: 'L',
-  },
+  months: 'Januar_Februar_Mart_April_Maj_Jun_Jul_Avgust_Septembar_Oktobar_Novembar_Decembar'.split('_'),
+  monthsShort: 'Jan._Feb._Mar._Apr._Maj_Jun_Jul_Avg._Sep._Okt._Nov._Dec.'.split('_'),
+  weekStart: 1,
   relativeTime: {
     future: 'za %s',
     past: 'pre %s',
     s: 'nekoliko sekundi',
-    ss: '%d sekundi',
-    m: 'minut',
-    mm: '%d minuta',
-    h: 'sat vremena',
-    hh: '%d sati',
-    d: 'jedan dan',
-    dd: '%d dana',
-    M: 'mesec dana',
-    MM: '%d meseci',
-    y: 'godinu dana',
-    yy: '%d godina',
+    m: translator.relativeTimeFormatter,
+    mm: translator.relativeTimeFormatter,
+    h: translator.relativeTimeFormatter,
+    hh: translator.relativeTimeFormatter,
+    d: translator.relativeTimeFormatter,
+    dd: translator.relativeTimeFormatter,
+    M: translator.relativeTimeFormatter,
+    MM: translator.relativeTimeFormatter,
+    y: translator.relativeTimeFormatter,
+    yy: translator.relativeTimeFormatter
   },
-  week: {
-    dow: 1, // Monday is the first day of the week.
-    doy: 4, // The week that contains Jan 4th is the first week of the year.
-  },
-});
+  ordinal: n => `${n}.`,
+  formats: {
+    LT: 'H:mm',
+    LTS: 'H:mm:ss',
+    L: 'D. M. YYYY.',
+    LL: 'D. MMMM YYYY.',
+    LLL: 'D. MMMM YYYY. H:mm',
+    LLLL: 'dddd, D. MMMM YYYY. H:mm'
+  }
+})

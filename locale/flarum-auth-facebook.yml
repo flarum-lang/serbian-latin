@@ -18,4 +18,4 @@ flarum-auth-facebook:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_facebook_button: Uloguj se pomoću Facebooka
+      with_facebook_button: Prijavi se sa Facebookom

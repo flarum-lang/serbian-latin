@@ -15,8 +15,12 @@ flarum-subscriptions:
     # These translations are used by the discussion control buttons.
     discussion_controls:
       follow_button: => flarum-subscriptions.ref.follow
-      unfollow_button: Podrazumevano
-      unignore_button: Podrazumevano
+      unfollow_button: Utišajte
+      unignore_button: Prestanite ignorisati
+
+    # These translations are used on the page that displays all subscriptions.
+    following:
+      meta_title_text: => flarum-subscriptions.ref.following
 
     # These translations are used on the index page, peripheral to the discussion list.
     index:
@@ -24,11 +28,11 @@ flarum-subscriptions:
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      new_post_text: "{username} je postavio/la novi odgovor"
+      new_post_text: "{username} je odgovorio/la"
 
     # These translations are used in the Settings page.
     settings:
-      follow_after_reply_label: Automatski pratite diskusije u kojima odgovorite
+      follow_after_reply_label: Automatski zaprati diskusije u kojima odgovorim
       notify_new_post_label: Ako neko odgovori u diskusiji koju pratim
 
     # These translations are used in the subscription menu displayed to the right of the post stream.
@@ -37,11 +41,33 @@ flarum-subscriptions:
       following_button: => flarum-subscriptions.ref.following
       following_text: Budite obavešteni o svim novim odgovorima.
       ignoring_button: => flarum-subscriptions.ref.ignoring
-      ignoring_text: Nikada nećete biti obavešteni i ova diskusija Vam se više neće prikazivati.
-      not_following_button: Podrazumevano
+      ignoring_text: Nikad ne budite obavešteni. Sakriveno sa liste diskusija.
+      not_following_button: Utišano
       not_following_text: "Budite obavešteni samo kada Vas neko spomene."
-      notify_alert_tooltip: Izaberite obaveštenja vezana za ovu diskusiju
-      notify_email_tooltip: Izaberite email obaveštenja vezana za ovu diskusiju
+      notify_alert_tooltip: Primajte obaveštenja na forumu kada se pojave novi odgovori
+      notify_email_tooltip: Primajte email obaveštenja kada se pojave novi odgovori
+
+  # Translations in this namespace are used in emails sent by the forum.
+  email:
+
+    # These translations are used in emails sent when a post is made in a subscribed discussion
+    new_post:
+      subject: "Novi odgovor u diskusiji {title}"
+      body: |
+        Zdravo {recipient_display_name}!
+
+        {poster_display_name} je odgovorio/la u diskusiji koju pratite: {title}.
+
+        Da pogledate novi odgovor, kliknite na sledeći link:
+        {url}
+
+        ---
+
+        {content}
+
+        ---
+
+        Nećete više dobijati obaveštenja o ovoj diskusiji dok ne ažurirate opcije praćenja.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -49,6 +75,6 @@ flarum-subscriptions:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    follow: Zaprati
+    follow: Zapratite
     following: Omiljeno
-    ignoring: Ignoriši
+    ignoring: Ignorišete

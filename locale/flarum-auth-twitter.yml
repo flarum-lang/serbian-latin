@@ -18,4 +18,4 @@ flarum-auth-twitter:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_twitter_button: Uloguj se pomoću Twittera
+      with_twitter_button: Prijavi se sa Tvitterom
