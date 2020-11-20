@@ -1,15 +1,15 @@
 # SERBIAN LANGUAGE PACK
-![](https://img.shields.io/badge/License-MIT-blue) ![](https://img.shields.io/badge/Packagist-v1.0-orange)
+[![](https://img.shields.io/badge/License-MIT-blue)](https://github.com/bryantmilan/lang-serbian/blob/master/LICENSE) [![](https://img.shields.io/badge/Packagist-v1.1-orange)](https://packagist.org/packages/bryantmilan/lang-serbian)
 
 #### INFO
 
-> The Serbian language is primarily made for people from Serbia and people whose mother tongue is serbian.
-> It can be used by all nations of the former Yugoslavia.
-> Translated from [English language](https://github.com/flarum/lang-english) and template from [French language](https://github.com/qiaeru/lang-french).
+> Serbian language pack for Flarum.
+> Translated from english language pack.
+> If you come across any errors, report them here.
 
 #### REQUIREMENT
 
-> Flarum 0.1.0-beta.13
+> Flarum 0.1.0-beta.14.1
 > 
 #### INSTALLATION
 `composer require bryantmilan/lang-serbian`
