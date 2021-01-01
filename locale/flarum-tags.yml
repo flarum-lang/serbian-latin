@@ -24,7 +24,7 @@ flarum-tags:
       name_placeholder: => flarum-tags.ref.name
       slug_label: Naziv za URL
       submit_button: => core.ref.save_changes
-      title: => flarum-tags.ref.create_tag
+      title: Kreirajte kategoriju
 
     # These translations are used in the navigation bar.
     nav:
@@ -49,10 +49,11 @@ flarum-tags:
     # These translations are used in the Tags page.
     tags:
       about_tags_text: "Kategorije se koriste za raspodelu diskusija. Primarne kategorije su poput tradicionalnih kategorija foruma: mogu se rasporediti u hijerarhiju na dva nivoa. Sekundarne kategorije nemaju hijerarhiju ili redosled i korisne su za mikroraspodelu."
-      create_tag_button: => flarum-tags.ref.create_tag
+      create_primary_tag_button: Kreirajte primarnu kategoriju
+      create_secondary_tag_button: Kreirajte sekundarnu kategoriju
       primary_heading: Primarne kategorije
       secondary_heading: Sekundarne kategorije
-      settings_button: Podešavanja
+      settings_heading: Podešavanja
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -110,6 +111,5 @@ flarum-tags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    create_tag: Napravite kategoriju
     name: Naziv
     tags: Kategorije
