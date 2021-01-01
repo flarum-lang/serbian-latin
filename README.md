@@ -1,5 +1,5 @@
 # SERBIAN LANGUAGE PACK
-[![](https://img.shields.io/badge/License-MIT-blue)](https://github.com/bryantmilan/lang-serbian/blob/master/LICENSE) [![](https://img.shields.io/badge/Packagist-v1.1-orange)](https://packagist.org/packages/bryantmilan/lang-serbian)
+[![](https://img.shields.io/badge/License-MIT-blue)](https://github.com/bryantmilan/lang-serbian/blob/master/LICENSE) [![](https://img.shields.io/badge/Packagist-v1.2-orange)](https://packagist.org/packages/bryantmilan/lang-serbian)
 
 #### INFO
 
@@ -9,7 +9,7 @@
 
 #### REQUIREMENT
 
-> Flarum 0.1.0-beta.14.1
+> Flarum 0.1.0-beta.15
 > 
 #### INSTALLATION
 `composer require bryantmilan/lang-serbian`
