@@ -18,7 +18,7 @@ validation:
   confirmed: "Potvrda polja :attribute se ne podudara."
   date: "Polje :attribute nije važeći datum."
   date_equals: "Polje :attribute mora biti tačno datuma :date."
-  date_format: "Polje :attribute ne odgovara formatu :other."
+  date_format: "Polje :attribute ne odgovara formatu :date."
   different: "Polje :attribute i polje :other moraju biti različiti."
   digits: "Polje :attribute mora imati :digits cifara."
   digits_between: "Polje :attribute mora imati između :min i :max cifara."

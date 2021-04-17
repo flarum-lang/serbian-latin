@@ -28,7 +28,6 @@ core:
       favicon_text: Otpremite sliku koja će biti prikazana kao ikonica foruma.
       logo_heading: Logo
       logo_text: Otpremite sliku koja će biti prikazana umesto naziva foruma.
-      submit_button: => core.ref.save_changes
       title: Izgled
 
     # These translations are used in the Basics page.
@@ -43,11 +42,9 @@ core:
       forum_title_heading: Naziv foruma
       home_page_heading: Početna stranica
       home_page_text: Izaberite stranicu koju će korisnici prvo videti kada posete Vaš forum.
-      saved_message: Izmene su sačuvane.
       show_language_selector_label: Prikaži opciju za odabir jezika
       slug_driver_heading: "Slug Driver: {model}"
       slug_driver_text: Izaberite upravljački program koji će se koristiti za spajanje ovog modela.
-      submit_button: => core.ref.save_changes
       title: Osnovno
       welcome_banner_heading: Baner dobrodošlice
       welcome_banner_text: Konfigurišite tekst koji se prikazuje u natpisu na stranici Sve diskusije. Koristite ovo za dobrodošlicu gostima na Vaš forum.
@@ -113,15 +110,15 @@ core:
       send_test_mail_success: "Probni email je uspešno poslat!"
       send_test_mail_text: "Ovo će poslati probni email koristeći gornju konfiguraciju na Vašu email adresu, {email}."
       smtp_heading: SMTP podešavanja
-      submit_button: => core.ref.save_changes
       title: => core.ref.email
 
     # These translations are used on default extension pages.
     extension:
+      configure_scopes: Konfigurišite opsege
       confirm_uninstall: Deinstaliranjem će se ukloniti svi unosi u bazu podataka i sredstva povezana sa ekstenzijom. Da li ste sigurni da želite da nastavite?
       disabled: Onemogućeno
-      enabled: Omogućeno
       enable_to_see: Omogućite ekstenziju za pregled i promenu podešavanja.
+      enabled: Omogućeno
       info_links:
         discuss: Diskusija
         documentation: Dokumentacija
@@ -133,7 +130,6 @@ core:
       no_settings: Ova ekstenzija nema podešavanja.
       open_modal: Otvori podešavanja
       permissions_title: Dozvole
-      saved_message: Izmene su sačuvane.
       uninstall_button: Deinstalacija
 
     # These translations are used in the secondary header.
@@ -180,7 +176,9 @@ core:
       delete_posts_label: Privremeno brisanje odgovora
       description: Konfigurišite ko može šta da vidi i radi.
       edit_posts_label: Izmena odgovora
-      edit_users_label: Izmena korisničkih naloga
+      edit_users_label: Izmenite korisničke atribute
+      edit_users_credentials_label: Izmenite akreditive korisnika
+      edit_users_groups_label: Izmenite korisničke grupe
       global_heading: Opšte
       moderate_heading: Upravljanje
       new_group_button: Nova grupa
@@ -209,8 +207,9 @@ core:
       signup_closed_button: Zatvorena
       signup_open_button: Otvorena
 
-    # These translations are used in the Settings modal dialog.
+    # These translations are used generically in setting fields.
     settings:
+      saved_message: Izmene su sačuvane.
       submit_button: => core.ref.save_changes
 
     # These translations are used in image upload buttons.
@@ -279,6 +278,7 @@ core:
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Uključi/Isključi padajući meni kontrole diskusija
 
     # These translations are used in the discussion list.
     discussion_list:
@@ -294,6 +294,7 @@ core:
       email_heading: => core.ref.email
       email_label: => core.ref.email
       groups_heading: Grupe
+      nothing_available: Trenutno ne možete ništa da uredite.
       password_heading: => core.ref.password
       password_label: => core.ref.password
       set_password_label: Postavi novu lozinku
@@ -316,10 +317,12 @@ core:
     header:
       admin_button: Administracija
       back_to_index_tooltip: Povratak na listu diskusija
+      locale_dropdown_accessible_label: Promenite lokalitet na forumu
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: Profil
       search_placeholder: Pretraga foruma
+      session_dropdown_accessible_label: Uključi/Isključi padajući meni sesija
       settings_button: => core.ref.settings
       sign_up_link: => core.ref.sign_up
 
@@ -332,6 +335,7 @@ core:
       meta_title_text: => core.ref.all_discussions
       refresh_tooltip: Osvežite
       start_discussion_button: => core.ref.start_a_discussion
+      toggle_sidenav_dropdown_accessible_label: Uključi/Isključi padajući meni za navigaciju
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
@@ -339,6 +343,7 @@ core:
       newest_button: Najnovije diskusije
       oldest_button: Najstarije diskusije
       relevance_button: Relevantne diskusije
+      toggle_dropdown_accessible_label: Promenite sortiranje liste diskusija
       top_button: Popularne diskusije
 
     # These translations are used in the Log In modal dialog.
@@ -359,6 +364,7 @@ core:
       mark_all_as_read_tooltip: => core.ref.mark_all_as_read
       mark_as_read_tooltip: Označite kao pročitano
       title: => core.ref.notifications
+      toggle_dropdown_accessible_label: Pogledajte obaveštenja
       tooltip: => core.ref.notifications
 
     # These translations are used by tooltips displayed for individual posts.
@@ -375,6 +381,7 @@ core:
       edit_button: => core.ref.edit
       hide_confirmation: "Da li ste sigurni da želite da izbrišete ovaj odgovor?"
       restore_button: => core.ref.restore
+      toggle_dropdown_accessible_label: Uključi/Isključi padajući meni za kontrolu odgovora
 
     # These translations are used in the scrubber to the right of the post stream.
     post_scrubber:
@@ -448,6 +455,7 @@ core:
       delete_error_message: "Brisanje korisnika <i>{username} ({email})</i> nije uspelo"
       delete_success_message: "Korisnik <i>{username} ({email})</i> je uspešno izbrisan"
       edit_button: => core.ref.edit
+      toggle_dropdown_accessible_label: Uključite/Isključite padajući meni korisničkih kontrola
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
@@ -461,6 +469,10 @@ core:
     # These translations are displayed as tooltips for discussion badges.
     badge:
       hidden_tooltip: Sakriveno
+
+    # These translations are used in the dropdown component.
+    dropdown:
+      toggle_dropdown_accessible_label: Uključi/Isključi padajući meni
 
     # These translations are displayed as error messages.
     error:

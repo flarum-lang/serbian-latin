@@ -1,13 +1,10 @@
 flarum-markdown:
-
-  ##
-  # UNIQUE KEYS - The following keys are used in only one location each.
-  ##
-
-  # Translations in this namespace are used by the forum user interface.
+  admin:
+    settings:
+      mdarea_help: mdarea je uslužni program za tekstualni program koji automatski nastavlja liste, pomaže u formatiranju koda i pomaže u uvlačenju.
+      mdarea_label: Omogućiti mdarea?
+  
   forum:
-
-    # These translations are used by the composer (emoji autocompletion function).
     composer:
       bold_tooltip: Dodajte podebljani tekst
       code_tooltip: Umetnite kod
