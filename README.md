@@ -8,7 +8,7 @@
 
 #### REQUIREMENT
 
-> Flarum 1.2.0
+> Flarum v1.2.0
 > 
 #### INSTALLATION
 `composer require bryantmilan/lang-serbian`
