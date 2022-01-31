@@ -1,34 +1,47 @@
 {
-    "name": "flarum/lang-serbian",
-    "type": "flarum-extension",
-    "description": "Serbian language for Flarum software.",
-    "keywords": ["serbian", "language", "flarum"],
-    "license": "MIT",
-    "require": {
-        "flarum/core": "^0.1.0-beta.16"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "0.1.x-dev"
-        },
-        "flarum-extension": {
-            "title": "Serbian",
-            "category": "language",
-            "info": {
-                "donate": "https://flarum.org/donate/",
-                "website": "https://flarum.org",
-                "support": "https://discuss.flarum.org/d/24125-serbian-language-pack"
-            },
-            "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#00247d",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
-            }
-        },
-        "flarum-locale": {
-            "code": "sr",
-            "title": "Srpski"
-        }
-    }
+	"name": "flarum/serbianlanguage",
+	"type": "flarum-extension",
+	"description": "Serbian language pack for Flarum.",
+	"keywords": [
+		"flarum",
+		"serbian",
+		"language"
+	],
+	"license": "MIT",
+	"homepage": "https://flarum.org",
+	"authors": [
+		{
+			"name": "Milan Bryant",
+			"email": "milansamp999@gmail.com"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/bryantmilan/lang-serbian/issues",
+		"source": "https://github.com/bryantmilan/lang-serbian",
+		"forum:": "https://discuss.flarum.org/d/24125-serbian-language-pack"
+	},
+	"require": {
+		"flarum/core": "^1.2"
+	},
+	"extra": {
+		"branch-alias": {
+			"dev-master": "dev-1.x"
+		},
+		"flarum-extension": {
+			"title": "Serbian",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#ffffff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "sr",
+			"title": "Srpski"
+		},
+		"extiverse": {
+			"discuss": "https://discuss.flarum.org/d/24125-serbian-language-pack"
+		}
+	}
 }

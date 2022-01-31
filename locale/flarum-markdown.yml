@@ -1,9 +1,4 @@
-flarum-markdown:
-  admin:
-    settings:
-      mdarea_help: mdarea je uslužni program za tekstualni program koji automatski nastavlja liste, pomaže u formatiranju koda i pomaže u uvlačenju.
-      mdarea_label: Omogućiti mdarea?
-  
+flarum-markdown: 
   forum:
     composer:
       bold_tooltip: Dodajte podebljani tekst
@@ -14,4 +9,6 @@ flarum-markdown:
       link_tooltip: Dodajte link
       ordered_list_tooltip: Dodajte numerisanu listu
       quote_tooltip: Umetnite citat
+      spoiler_tooltip: Umetnite spojler
+      strikethrough_tooltip: Dodajte precrtani tekst
       unordered_list_tooltip: Dodajte nenumerisanu listu

@@ -3,13 +3,12 @@
 
 #### INFO
 
-> Serbian language pack for Flarum.
-> Translated from english language pack.
-> If you come across any errors, report them here.
+> Serbian language pack with bundled extensions for Flarum.
+> If you think there are any mistakes, let me know.
 
 #### REQUIREMENT
 
-> Flarum 0.1.0-beta.16
+> Flarum 1.2.0
 > 
 #### INSTALLATION
 `composer require bryantmilan/lang-serbian`

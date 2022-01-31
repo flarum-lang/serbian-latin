@@ -1,5 +1,4 @@
-// Serbian day.js from https://github.com/iamkun/dayjs/blob/dev/src/locale/sr.js
-// All credits belong to contributors from GitHub
+// Find more on https://github.com/iamkun/dayjs/blob/dev/src/locale/sr.js
 
 const translator = {
   words: {

@@ -66,8 +66,9 @@ flarum-tags:
 
     # These translations are used by the Choose Tags modal dialog.
     choose_tags:
-      choose_primary_placeholder: "Izaberite primarnu kategoriju|Izaberite {count} primarnih kategorija"
-      choose_secondary_placeholder: "Izaberite još jednu kategoriju|Izaberite još {count} kategorija"
+      bypass_requirements: Zaobiđite obavezno kategorisanje
+      choose_primary_placeholder: "{count, plural, one {Izaberite primarnu kategoriju} other {Izaberite # primarnih kategorija}}"
+      choose_secondary_placeholder: "{count, plural, one {Izaberite još jednu kategoriju} other {Izaberite još # kategorija}}"
       edit_title: "Izmenite kategorije za diskusiju {title}"
       submit_button: => core.ref.okay
       title: Izaberite kategorije za Vašu diskusiju
@@ -94,7 +95,7 @@ flarum-tags:
       added_and_removed_tags_text: "{username} je dodao/la {tagsAdded} i uklonio/la {tagsRemoved} kategoriju."
       added_tags_text: "{username} je dodao/la {tagsAdded} kategoriju."
       removed_tags_text: "{username} je uklonio/la {tagsRemoved} kategoriju."
-      tags_text: "{tags} kategorija|{tags} kategorije"
+      tags_text: "{count, plural, one {{tags} kategorija} other {{tags} kategorije}}"
 
     # These translations are used when visiting a single tag's discussion list.
     tag:
