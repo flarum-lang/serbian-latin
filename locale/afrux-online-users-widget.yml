@@ -8,5 +8,5 @@ afrux-online-users-widget:
       max_users: 'Maksimalan broj članova za prikaz'
   forum:
     widget:
-      empty: 'Nema dostupnih članova'
+      empty: 'Nema dostupnih članova.'
       title: 'Dostupni članovi'

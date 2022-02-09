@@ -17,7 +17,7 @@ askvortsov-moderator-warnings:
       subject: '{warner_display_name} te je upozorio/la {strikes, plural, one {# upozorenjem} other {# upozorenja}}'
   forum:
     notifications:
-      warning_no_strikes_text: 'Upozoren/a  si od strane {mod_username} (no strikes)'
+      warning_no_strikes_text: 'Upozoren/a si od strane {mod_username} (no strikes)'
       warning_text: '{strikes, plural, one {Upozoren/a si sa # upozorenja od strane {mod_username}} other {Upozoren/a si sa # upozorenja od strane {mod_username}}}'
     post:
       warning: '{strikes, plural, one {Upozoren/a sa # upozorenja od strane {mod_username}} other {Upozoren/a sa # upozorenja od strane {mod_username}}}'
