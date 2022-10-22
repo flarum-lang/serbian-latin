@@ -96,7 +96,6 @@ core:
     extension:
       configure_scopes: 'Konfigurišite opsege'
       confirm_purge: 'Uklanjanje će izbrisati sve unose baze podataka i sredstva u vezi sa ekstenzijom. Neće deinstalirati ekstenziju; to se mora uraditi preko Composera. Da li ste sigurni da želite da nastavite?'
-      confirm_uninstall: 'Deinstaliranjem će se ukloniti svi unosi baze podataka i sredstva vezana za ekstenziju. Da li ste sigurni da želite da nastavite?'
       disabled: Onemogućeno
       enable_to_see: 'Omogućite ekstenziju za pregled i promenu podešavanja.'
       enabled: Omogućeno
@@ -116,7 +115,6 @@ core:
         button_label: 'Saznaj više'
         no_readme: 'Izgleda da ova ekstenzija nema više informacija'
         title: '{extName} dokumentacija'
-      uninstall_button: Deinstaliraj
     header:
       get_help: Pomoć
       log_out_button: '=> core.ref.log_out'
@@ -284,7 +282,6 @@ core:
     discussion_list:
       empty_text: 'Izgleda da ovde nema diskusija.'
       load_more_button: '=> core.ref.load_more'
-      mark_as_read_tooltip: 'Označi kao pročitano'
       replied_text: '{username} je odgovorio/la {ago}'
       started_text: '{username} je započeo/la diskusiju {ago}'
       total_replies_a11y_label: '{count, plural, one {# odgovor} other {# odgovora}}'
