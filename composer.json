@@ -1,17 +1,18 @@
 {
-	"name": "flarum-lang/serbian",
+	"name": "flarum-lang/serbian-latin",
 	"type": "flarum-extension",
-	"description": "Serbian language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/serbian",
+	"description": "Serbian (Latin) language pack for Flarum.",
+	"homepage": "https://github.com/flarum-lang/serbian-latin",
 	"keywords": [
 		"locale",
 		"flarum",
-		"sr-locale"
+		"sr-locale",
+		"sr_Latn-locale"
 	],
 	"license": "MIT",
 	"support": {
-		"issues": "https://github.com/flarum-lang/serbian/issues",
-		"source": "https://github.com/flarum-lang/serbian"
+		"issues": "https://github.com/flarum-lang/serbian-latin/issues",
+		"source": "https://github.com/flarum-lang/serbian-latin"
 	},
 	"require": {
 		"flarum/core": "^1.4"
@@ -20,7 +21,7 @@
 	"prefer-stable": true,
 	"extra": {
 		"flarum-extension": {
-			"title": "Serbian",
+			"title": "Serbian (Latin)",
 			"category": "language",
 			"icon": {
 				"image": "icon.svg",
@@ -29,8 +30,8 @@
 			}
 		},
 		"flarum-locale": {
-			"code": "sr",
-			"title": "Serbian"
+			"code": "sr_Latn",
+			"title": "Serbian (Latin)"
 		},
 		"extiverse": {
 			"discuss": ""
