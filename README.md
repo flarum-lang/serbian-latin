@@ -115,8 +115,8 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
-| [`blomstra/readme`](https://extiverse.com/extension/blomstra/readme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/sr_Latn/) |
-| [`blomstra/realtime`](https://extiverse.com/extension/blomstra/realtime) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/blomstra-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-realtime/sr_Latn/) |
+| [`blomstra/readme`](https://flarum.org/extension/blomstra/readme) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/blomstra-readme/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-readme/sr_Latn/) |
+| [`blomstra/realtime`](https://flarum.org/extension/blomstra/realtime) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/blomstra-realtime/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-realtime/sr_Latn/) |
 
 <!-- premium-extensions-list-stop -->
 
