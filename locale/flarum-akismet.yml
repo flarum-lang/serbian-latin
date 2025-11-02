@@ -5,10 +5,10 @@
 flarum-akismet:
   admin:
     akismet_settings:
-      api_key_label: 'API Key'
+      api_key_label: 'API ključ'
       delete_blatant_spam_help: 'Ako Akismet utvrdi da je komentar očigledan neželjeni sadržaj, umesto označavanja, automatski izbrišite odgovor'
-      delete_blatant_spam_label: 'Automatski izbrišite očiglednu neželjenu poštu'
-      title: 'Akismet podešavanja'
+      delete_blatant_spam_label: 'Automatski izbriši očiglednu neželjenu poštu'
+      title: 'Podešavanja Akismeta'
     permissions:
       bypass_akismet: 'Zaobiđite Akismet'
   forum:
