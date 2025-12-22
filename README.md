@@ -79,6 +79,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/moderator-warnings`](https://github.com/FriendsOfFlarum/moderator-warnings) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/fof-moderator-warnings/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-moderator-warnings/sr_Latn/) |
 
 <!-- fof-extensions-list-stop -->
 
@@ -99,7 +100,6 @@ php flarum cache:clear
 | [`afrux/top-posters-widget`](https://github.com/afrux/top-posters-widget) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/afrux-top-posters-widget/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/afrux-top-posters-widget/sr_Latn/) |
 | [`askvortsov/flarum-checklist`](https://github.com/askvortsov1/flarum-checklist) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/askvortsov-checklist/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-checklist/sr_Latn/) |
 | [`askvortsov/flarum-help-tags`](https://github.com/askvortsov1/flarum-help-tags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/askvortsov-help-tags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-help-tags/sr_Latn/) |
-| [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/askvortsov-moderator-warnings/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-moderator-warnings/sr_Latn/) |
 | [`blomstra/mark-unread`](https://github.com/blomstra/flarum-ext-mark-unread) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/blomstra-mark-unread/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/blomstra-mark-unread/sr_Latn/) |
 | [`clarkwinkelmann/flarum-ext-first-post-approval`](https://github.com/clarkwinkelmann/flarum-ext-first-post-approval) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/clarkwinkelmann-first-post-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-first-post-approval/sr_Latn/) |
 | [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/clarkwinkelmann-likes-received/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-likes-received/sr_Latn/) |
