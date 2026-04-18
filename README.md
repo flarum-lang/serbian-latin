@@ -18,7 +18,7 @@ This language pack contains Serbian (Latin) translations for Flarum (compatible 
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/serbian-latin:dev-master
+composer require "flarum-lang/serbian-latin:@dev"
 ```
 
 Then enable extension in admin panel of your Flarum.
