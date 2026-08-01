@@ -99,6 +99,7 @@ php flarum cache:clear
 | [`clarkwinkelmann/flarum-ext-likes-received`](https://github.com/clarkwinkelmann/flarum-ext-likes-received) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/clarkwinkelmann-likes-received/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-likes-received/sr_Latn/) |
 | [`clarkwinkelmann/flarum-ext-post-permissions`](https://github.com/clarkwinkelmann/flarum-ext-post-permissions) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/clarkwinkelmann-post-permissions/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/clarkwinkelmann-post-permissions/sr_Latn/) |
 | [`gtdxyz/flarum-ext-badges`](https://github.com/daocatt/flarum-ext-badges) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/gtdxyz-badges/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/gtdxyz-badges/sr_Latn/) |
+| [`neoncube/flarum-private-messages`](https://github.com/neoncube2/flarum-private-messages) | [![Translation status](https://weblate.rob006.net/widgets/flarum/sr_Latn/neoncube-private-messages/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/neoncube-private-messages/sr_Latn/) |
 
 <!-- various-extensions-list-stop -->
 
